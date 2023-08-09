@@ -1,0 +1,17 @@
+[project]
+name = "9anime-dl"
+version = "0.1.0"
+description = "Download anime from 9anime.to"
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "undetected-chromedriver",
+    "appdirs",
+    "colorama",
+    "yt-dlp",
+]
+
+[project.urls]
+repository = "https://github.com/Funami580/9anime-dl"
